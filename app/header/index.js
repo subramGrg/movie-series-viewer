@@ -15,16 +15,17 @@ const renderHeader = () => {
 			</h1>
 
 			<div styleName="primary_nav">
-				<Link to="/log-in">
+				<Link to="#">
 					Log In
 				</Link>
 				<Link 
 					styleName="trial"
-					to="/free-trial">
+					to="#">
 
 					Start your free trial
 				</Link>
 			</div>
+			
 		</div>
 	</div>;
 };
