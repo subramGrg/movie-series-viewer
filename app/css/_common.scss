@@ -1,0 +1,21 @@
+:global {
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: Helvetica, Arial, sans-serif;
+	}
+	
+	.container {
+		max-width: 1080px;
+		margin: 0 auto;
+		padding: 0 10px;
+	}
+
+	h1, 
+	h2, 
+	h3, 
+	h4,
+	p {
+		margin: 0;
+	}
+}

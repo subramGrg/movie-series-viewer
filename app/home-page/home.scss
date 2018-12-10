@@ -1,0 +1,29 @@
+.title {
+	text-transform: capitalize;
+	margin: 0;
+}
+
+.main__container {
+	display: flex;
+}
+
+.link {
+	display: block;
+	height: 250px;
+	background: #1e1e1e;
+	margin-bottom: 10px;
+	text-align: center;
+    line-height: 250px;
+	color: #fff;
+	text-decoration: none;
+
+	&:visited {
+		color: #fff;
+	}
+}
+
+.link_container {
+	width: 200px;
+	height: 300px;
+	margin-right: 20px;
+}

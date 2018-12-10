@@ -1,0 +1,63 @@
+@import "../css/mixins";
+
+.logo {
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	
+	@include sm {
+		text-align: center;
+	}
+
+	@include md {
+		width: 50%;
+	}
+}
+
+.infinite {
+	background: #007bff;
+	padding: 14px 0;
+}
+
+.container {
+	@include md {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	a {
+		color: #fff;
+		text-decoration: none;
+		
+		&:visited {
+			color: #fff;
+		}
+	}
+}
+
+.primary_nav {
+	@include md {
+		display: flex;
+		width: 50%;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	a {
+		display: block;
+
+		@include sm {
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		@include md {
+			margin-left: 20px;
+		}
+	}
+}
+
+.trial {
+	background: #363636;
+	padding: 4px 12px;
+}

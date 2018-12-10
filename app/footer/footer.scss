@@ -1,0 +1,70 @@
+@import "../css/mixins";
+
+.infinite {
+	background: #1e1e1e;
+	padding: 40px 0;
+}
+
+.link {
+	color: #fff;
+	text-decoration:  none;
+	padding-right: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	position: relative;
+
+	&:visited {
+		color: #fff;
+	}
+
+	&:after {
+		@include lg {
+			content: "|";
+			position: absolute;
+			right: 0;
+		}
+	}
+}
+
+.copyright {
+	color: #424d50;
+	margin-top: 20px;
+}
+
+.link_wrapper {
+	display: flex;
+	flex-direction: column;
+
+	@include lg {
+		flex-direction: row;
+	}
+}
+
+.bottom_wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.icon_wrapper {
+	display: flex;
+
+	> span {
+		width: 40px;
+	}
+
+	svg {
+		fill: #fff;
+	}
+}
+
+.logo_wrapper {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	
+	img {
+		width: 30%;
+		height: 100%;
+	}
+}
